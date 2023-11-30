@@ -16,7 +16,7 @@
   --dsc-color-font-tertiary: #fff;
   --dsc-color-font-placeholder: #d9d9d9;
 
-  --dsx-color-error: #f33;
+  --dsc-color-error: #f33;
 }
 
 * {
@@ -83,6 +83,16 @@ nav a {
 nav a {
   font-size: 14px;
   font-weight: 700;
+}
+
+.dsc-logged-user {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.dsc-logged-user p {
+  font-size: 12px;
 }
 
 /*--------------------------------------------------*/
@@ -227,7 +237,6 @@ nav a {
   color: var(--dsc-color-font-primary);
   border-radius: 4px;
   border: 1px solid var(--dsc-color-card-border);
-
 }
 
 .dsc-form-control:focus {
@@ -239,16 +248,16 @@ nav a {
 }
 
 .dsc-input-error {
-  border: 1px solid var(--dsx-color-error);
+  border: 1px solid var(--dsc-color-error);
 }
 
 .dsc-form-error {
-  color: var(--dsx-color-error);
+  color: var(--dsc-color-error);
   font-size: 12px;
   padding-left: 4px;
 }
 
-@media(min-width: 576px) {
+@media (min-width: 576px) {
   .dsc-form h2 {
     font-size: 24px;
   }
