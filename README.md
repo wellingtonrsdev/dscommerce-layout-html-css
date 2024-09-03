@@ -1,7 +1,7 @@
 
 <h1 align="center">DSCommerce</h1>
 
-Este projeto foi proposto pela escola Devsuperior no módulo de frontend do curso Formação Desenvolvedor moderno, nesse projeto foi feito a estrutura do projeto com HTML com o objetivo de praticar como estruturar sua página e as diversas Tags do HTML  e também a estilização com CSS, alinhamento dos elementos com flexbox, esse código será utilizado no desenvolvimento
+Este projeto foi proposto pela escola Devsuperior no módulo de frontend do curso Formação Desenvolvedor moderno, nesse projeto foi feito a estrutura do projeto com HTML com o objetivo de praticar como estruturar sua página e as diversas Tags do HTML  e também a estilização com CSS, alinhamento dos elementos com flexbox, projeto com responsividade para se adaptar as telas de celular e computador, esse código será utilizado no desenvolvimento
 dos componentes no React.
 
 ## Design Figma do Projeto
